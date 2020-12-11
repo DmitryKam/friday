@@ -12,7 +12,6 @@ export const PATH = {
     Login: '/login',
     Registration: '/registration',
     Profile: '/profile',
-    Error404: '/404',
     Test: '/test',
     NewPassword: '/newpass',
     RecoveryPassword: '/repass',
@@ -31,8 +30,7 @@ function Routes() {
                 <Route path={PATH.NewPassword} render={() => <NewPassword/>}/>
                 <Route path={PATH.RecoveryPassword} render={() => <RecoveryPassword/>}/>
                 <Route path={PATH.Test} render={() => <Test/>}/>
-                <Route  path={PATH.Error404} render={() => <Error404/>}/>
-
+                <Route render={() => <Error404/>}/>
             </Switch>
         </div>
 

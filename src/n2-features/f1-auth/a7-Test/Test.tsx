@@ -3,7 +3,6 @@ import SuperInputText from '../../../n1-main/m1-ui/common/c1-SuperInputText/Supe
 import SuperButton from '../../../n1-main/m1-ui/common/c2-SuperButton/SuperButton';
 import SuperCheckbox from '../../../n1-main/m1-ui/common/c3-SuperCheckbox/SuperCheckbox';
 import {NavLink} from 'react-router-dom';
-import {PATH} from '../../../n1-main/m1-ui/routes/Routes';
 
 export const Test = () => {
 
@@ -15,7 +14,7 @@ export const Test = () => {
             <hr/>
             <SuperButton> Test</SuperButton>
             <hr/>
-            <NavLink to={PATH.Error404}> Error 404 </NavLink>
+            <NavLink to={'/error'}> Error 404 </NavLink>
             <hr/>
             <SuperCheckbox/>
         </div>
